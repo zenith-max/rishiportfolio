@@ -149,7 +149,7 @@ const Frame5 = (props) => {
           alt="Rectangle11128"
           className="frame5-thq-rectangle1-elm"
         />
-        <span className="frame5-thq-text-elm10">
+        <span className="frame5-thq-text-elm10 frame5-hero-text-pop-left frame5-hero-delay-1">
           Hey , I’m
           <span
             dangerouslySetInnerHTML={{
@@ -157,7 +157,7 @@ const Frame5 = (props) => {
             }}
           />
         </span>
-        <span className="frame5-thq-text-elm11">
+        <span className="frame5-thq-text-elm11 frame5-hero-text-pop-left frame5-hero-delay-3">
           <span>
             A jack of all trades is a master of none,
             <span
@@ -169,13 +169,17 @@ const Frame5 = (props) => {
           <br></br>
           <span>but oftentimes better than a master of one.</span>
         </span>
-        <span className="frame5-thq-text-elm14">Rishi ram</span>
+        <span className="frame5-thq-text-elm14 frame5-hero-name-pop-left">
+          Rishi ram
+        </span>
         <img
           src="/chatgptimagemar272026121033am1photoroom11132-v7v-1300h.png"
           alt="ChatGPTImageMar272026121033AM1Photoroom11132"
-          className="frame5-thq-chat-gpt-image-mar272026121033am1-photoroom1-elm"
+          className="frame5-thq-chat-gpt-image-mar272026121033am1-photoroom1-elm frame5-hero-image-pop-up"
         />
-        <span className="frame5-thq-text-elm15">Rishi ram</span>
+        <span className="frame5-thq-text-elm15 frame5-hero-name-pop-left">
+          Rishi ram
+        </span>
         <div className="frame5-thq-group1-elm">
           <img
             src="/ellipse11136-zkh-200h.png"
@@ -183,7 +187,9 @@ const Frame5 = (props) => {
             className="frame5-thq-ellipse1-elm"
           />
         </div>
-        <span className="frame5-thq-text-elm16">Portfolio</span>
+        <span className="frame5-thq-text-elm16">
+          Portfolio
+        </span>
         <a
           href="https://www.linkedin.com/in/rishi-ram-b77b80321"
           target="_blank"
@@ -218,7 +224,7 @@ const Frame5 = (props) => {
             className="frame5-thq-image3-elm"
           />
         </div>
-        <span className="frame5-thq-text-elm21">
+        <span className="frame5-thq-text-elm21 frame5-hero-text-pop-left frame5-hero-delay-4">
           I’m a curious and driven learner who enjoys exploring different skills
           rather than limiting myself to just one path. I like building,
           experimenting, and turning ideas into real projects, whether it’s in

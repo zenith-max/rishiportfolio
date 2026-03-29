@@ -245,6 +245,82 @@
   position: absolute;
 }
 
+.frame5-hero-image-pop-up {
+  opacity: 0;
+  transform: translateY(80px) scale(0.98);
+  animation: frame5HeroImagePopUp 0.95s cubic-bezier(0.22, 1, 0.36, 1) 0.2s
+    forwards;
+  will-change: transform, opacity;
+}
+
+.frame5-hero-name-pop-left {
+  opacity: 0;
+  transform: translateX(-80px);
+  animation: frame5HeroNamePopLeft 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.12s
+    forwards;
+  will-change: transform, opacity;
+}
+
+.frame5-hero-text-pop-left {
+  opacity: 0;
+  transform: translateX(-95px);
+  animation: frame5HeroTextPopLeft 0.92s cubic-bezier(0.22, 1, 0.36, 1)
+    forwards;
+  will-change: transform, opacity;
+}
+
+.frame5-hero-delay-1 {
+  animation-delay: 0.06s;
+}
+
+.frame5-hero-delay-2 {
+  animation-delay: 0.18s;
+}
+
+.frame5-hero-delay-3 {
+  animation-delay: 0.28s;
+}
+
+.frame5-hero-delay-4 {
+  animation-delay: 0.42s;
+}
+
+@keyframes frame5HeroImagePopUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80px) scale(0.98);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes frame5HeroNamePopLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes frame5HeroTextPopLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-95px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .frame5-hero-existing-role {
   transition:
     opacity 0.72s cubic-bezier(0.22, 1, 0.36, 1),
@@ -483,6 +559,16 @@
   .frame5-hero-existing-role-inactive {
     opacity: 0.42;
     filter: blur(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frame5-hero-image-pop-up,
+  .frame5-hero-name-pop-left,
+  .frame5-hero-text-pop-left {
+    opacity: 1;
+    transform: none;
+    animation: none;
   }
 }
  
