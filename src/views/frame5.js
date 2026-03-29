@@ -184,7 +184,14 @@ const Frame5 = (props) => {
           />
         </div>
         <span className="frame5-thq-text-elm16">Portfolio</span>
-        <span className="frame5-thq-text-elm17">contact</span>
+        <a
+          href="https://www.linkedin.com/in/rishi-ram-b77b80321"
+          target="_blank"
+          rel="noreferrer"
+          className="frame5-thq-text-elm17"
+        >
+          contact
+        </a>
         <div className="frame5-thq-group2-elm">
           <span className={`frame5-thq-text-elm18 ${getRoleClassName(2)}`}>
             UIUX Designer
